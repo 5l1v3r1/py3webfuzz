@@ -81,7 +81,7 @@ class Attack:
                 self.all_attacks_unix = Attack.file_read(location)
 
                 # all-attacks-win.txt
-                location = "/web/data/fuzzdb/attack/all-attacks/all-attacks-win.txt"
+                location = ("/web/data/fuzzdb/attack/all-attacks/all-attacks-win.txt")
                 self.all_attacks_win = Attack.file_read(location)
 
                 # all-attacks-xplatform.txt
